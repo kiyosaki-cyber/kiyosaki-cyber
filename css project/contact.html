@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/stye.css">
+</head>
+<body>
+    <header class="header">
+        <h1 class="header__h1">welcome to the little taco shop</h1>
+        <nav class="header__nav">
+            <ul class="header__ul">
+                <li> 
+                    <a href="index.html">home</a>
+                </li>
+                <li><a href="menu.html">menu</a></li> 
+                <li>
+                    <a href="hours.html">contact us</a>
+                <li>
+                    <a href="about.html">about-LTS</a>
+                </li>
+            </ul>
+        
+        </nav>
+       
+        </header>
+        <section>
+            <article id="contact-us">  
+                <h2>contact us</h2>
+                <figure>
+                <img src="img/homemade-korean-beef-bulgogi-tacos.jpg" alt="korean-beef-bulgogi-tacos" width="509" height="339" loading="eager">
+                <figcaption class="offscreen"> 
+                    send us feedback so that we can serve you better
+                </figcaption>
+            </figure>
+                
+        </section>
+        <main class="main">
+            <article class="main__article">
+                <article id="our-location" class="main__article">
+                    <h2>our location</h2>
+                    <address>
+                        roman reings street
+                        moi avenue
+                        69-10102 hawaianohio 
+                    </address>
+                </article>
+        <form action="https://httpbin.org/get" method="get">
+
+        <fieldset>
+            <legend>please send us feedback about our services here</legend>
+        
+            <br>
+            <h3>our contact form</h3>
+            <p>
+                <label for="name">name</label>
+                <input type="text" name="name" id="name" placeholder="esther natalia" autocomplete="on" required>
+            </p>
+            <p>
+                <label for="email">email address</label>
+                <input type="email" name="email" id="email" placeholder="randomemail@gmail.com" required>
+            </p>
+            <label for="your-messsage"> your message</label>
+                    <br>
+                    <textarea name="your-messsage" id="your-messsage" cols="30" rows="10" placeholder="type your message here"></textarea>
+                    <br>
+                    <button type="submit">submit</button>
+                    <button type="submit" formaction="https://httpbin.org/post" formmethod="post">post</button>
+                    <button type="reset">reset</button>
+                    <br>
+                <p>
+                    <a href="#">back to top</a>
+                </p>
+                </fieldset>
+            </form>
+            </article>
+        </main>
+        <footer class="footer">
+            <p>
+                 <span class="nowrap">&copy;<a href="about.html">alfred waititu</a></span>
+                <span class="nowrap"> <a href="#"> back to the top</a></span>
+        </p>
+
+
+        </footer>
+    
+</body>
+</html>
